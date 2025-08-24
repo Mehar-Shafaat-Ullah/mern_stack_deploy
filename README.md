@@ -12,7 +12,7 @@ Make sure your project has the following structure:
 ```
 
 MernProjectDeploy/
-├── client/        # React frontend (Vite or CRA)
+├── client/        # React frontend (Vite or anotehr like CRA)
 ├── server/        # Node.js backend (Express)
 ├── .github/
 │   └── workflows/
@@ -259,10 +259,3 @@ sudo systemctl restart nginx
 * Frontend should use `/api` as the base for API calls
 * Use `.env` with `VITE_API_URL=/api` to simplify backend URL handling
 
----
-
-## 🧑‍💻 Author
-Satyam Singh
-Full Stack Developer
-[LinkedIn](https://www.linkedin.com/in/satyam-singh-dev)
-[YouTube](https://www.linkedin.com/in/satyam-singh-dev)
